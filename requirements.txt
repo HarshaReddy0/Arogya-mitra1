@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+openai
+langdetect
+transformers
+requests
+langdetect
+torch
