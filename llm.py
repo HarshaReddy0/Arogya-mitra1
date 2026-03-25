@@ -7,7 +7,7 @@ def get_health_response(query):
     response = openai.ChatCompletion.create(
         model="gpt-4o-mini",
         messages=[
-            {"role": "system", "content": "You are a helpful health assistant."},
+            {"role": "system", "content": "You are a health assistant."},
             {"role": "user", "content": query}
         ]
     )
